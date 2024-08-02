@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neeman's</title>
+  <link rel="icon" href="img/NeemanShoesLogo.png" type="image/icon type">
+
+  <!-- <script src = "Script.js"> </script> -->
+
+  <!-- this is tailwind css CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+
+
+  <div class="progress-Bar">
+    <div class="filled">
+
+    </div>
+  </div>
+
+
+  <div class="Neemans">
+    <h1 class="Logodesign">Neeman's</h1>
+    <div class="content">
+      <a href=""><i class="fa-solid fa-magnifying-glass"></i>Search</a>
+      <a href=""><i class="fa-solid fa-store"></i>Store</a>
+      <a href="" class="cart-icon"><i class="fa fa-shopping-cart"></i>Cart<span class="cart-count">(0)</span></a>
+    </div>
+  </div>
+
+
+  <div class="countmessage">
+    <div class="CountdownBody">
+      <h4>Up to 65% OFF
+        Sizzling summer sale ends in:</h4>
+    </div>
+  </div>
+
+  <div id="countdown"></div>
+
+  <section>
+    <div class="marqHead">
+
+      <marquee id="marquee-container" behavior="scroll" direction="left" scrollamount="15">
+
+        &#128512 7 DAYS FREE
+        EXCHANGE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &#128095 NEW DROP All PURPOSE
+        LOAFERS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &#128516 2M+ HAPPY CUSTOMERS
+      </marquee>
+
+      <div class="track-login-div">
+        <ul type="none" class="Nav-Login-to-Help">
+          <li> <a href="NeemanLogin.html">LOGIN/SIGNUP</a> </li>
+          <li> <a href="Trackdemo.html">TRACK YOUR ORDERS</a> </li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- here we are applying bootstrap for header -->
+
+  <div class="navbar">
+
+    <div class="dropdown">
+      <button class="dropbtn">Slippers
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Item 1</a>
+        <a href="#">Item 2</a>
+        <a href="#">Item 3</a>
+        <a href="#">Item 4</a>
+        <a href="#">Item 5</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Loafers
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Item 1</a>
+        <a href="#">Item 2</a>
+        <a href="#">Item 3</a>
+        <a href="#">Item 4</a>
+        <a href="#">Item 5</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Shoes
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Item 1</a>
+        <a href="#">Item 2</a>
+        <a href="#">Item 3</a>
+        <a href="#">Item 4</a>
+        <a href="#">Item 5</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">About
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Item 1</a>
+        <a href="#">Item 2</a>
+        <a href="#">Item 3</a>
+        <a href="#">Item 4</a>
+        <a href="#">Item 5</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Help
+      </button>
+      <div class="dropdown-content">
+        <a href="ReturnExchange.html">Return & Exchange</a>
+        <a href="Trackdemo.html">Track Your Order</a>
+        <a href="ContactUs.html">Contact Us</a>
+        <a href="ReturnPolicy.html">Return Policy</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Sneakers
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Item 1</a>
+        <a href="#">Item 2</a>
+        <a href="#">Item 3</a>
+        <a href="#">Item 4</a>
+        <a href="#">Item 5</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- bootstrap end -->
+
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="#"> <img src="img/CarausalImg1.png" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="#"></a><img src="img/CarausalImg2.png" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="#"> <img src="img/slideimg1.png" class="d-block w-100" alt="..."></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <section class="Achievment1">
+    <div class="container1">
+      <div class="box1"><b><i class="fa-regular fa-face-smile-beam"></i> 2M+ Happy Customers</b></div>
+      <div class="box1"><b> <i class="fa-solid fa-industry"></i> Proudly Made in India</b></div>
+      <div class="box1"><b><i class="fa-solid fa-recycle"> </i> 3M+ Plastic bottles recycled</b></div>
+      <div class="box1"><b><i class="fa-solid fa-seedling"></i> Eco friendly fashion</b></div>
+    </div>
+  </section>
+
+
+  <div class="container3">
+    <a href="DiscoountsixtyperNeemanImg/DiscoountsixtyperNeemanImg.html"> <img src="img/Neemanimg.png"
+        alt="Neeman image"></a>
+  </div>
+
+
+  <div class="Heading-for-Title">
+    Best Seller
+  </div>
+
+  <section class="slider">
+    <div class="card">
+      <div class="card-content">
+        <img src="img/Apple-iPhone-12-Pro.png" alt="" class="card-img">
+        <h1 class="card-title">HP Spectre x360 15</h1>
+        <div class="card-body">
+          <div class="card-star">
+            <span class="rating-value">4.5</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="card-price">$650.99</p>
+        </div>
+        <div class="card-footer">
+          <button class="botn btn-success">Buy Now</button>
+          <button class="botn btn-border">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <img src="img/g233 prodigy gaming headset.png" alt="" class="card-img">
+        <h1 class="card-title">HP Spectre x360 15</h1>
+        <div class="card-body">
+          <div class="card-star">
+            <span class="rating-value">4.5</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="card-price">$650.99</p>
+        </div>
+        <div class="card-footer">
+          <button class="botn btn-success">Buy Now</button>
+          <button class="botn btn-border">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <img src="img/laptop 3.png" alt="" class="card-img">
+        <h1 class="card-title">HP Spectre x360 15</h1>
+        <div class="card-body">
+          <div class="card-star">
+            <span class="rating-value">4.5</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="card-price">$650.99</p>
+        </div>
+        <div class="card-footer">
+          <button class="botn btn-success">Buy Now</button>
+          <button class="botn btn-border">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <img src="img/ipad.png" alt="" class="card-img">
+        <h1 class="card-title">HP Spectre x360 15</h1>
+        <div class="card-body">
+          <div class="card-star">
+            <span class="rating-value">4.5</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="card-price">$650.99</p>
+        </div>
+        <div class="card-footer">
+          <button class="botn btn-success">Buy Now</button>
+          <button class="botn btn-border">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <img src="img/ROG StrixmWireless gaming headset.png" alt="" class="card-img">
+        <h1 class="card-title">HP Spectre x360 15</h1>
+        <div class="card-body">
+          <div class="card-star">
+            <span class="rating-value">4.5</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="card-price">$650.99</p>
+        </div>
+        <div class="card-footer">
+          <button class="botn btn-success">Buy Now</button>
+          <button class="botn btn-border">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <img src="img/HP Spectre x360 15.png" alt="" class="card-img">
+        <h1 class="card-title">HP Spectre x360 15</h1>
+        <div class="card-body">
+          <div class="card-star">
+            <span class="rating-value">4.5</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="card-price">$650.99</p>
+        </div>
+        <div class="card-footer">
+          <button class="botn btn-success">Buy Now</button>
+          <button class="botn btn-border">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <img src="img/g233 prodigy gaming headset.png" alt="" class="card-img">
+        <h1 class="card-title">HP Spectre x360 15</h1>
+        <div class="card-body">
+          <div class="card-star">
+            <span class="rating-value">4.5</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="card-price">$650.99</p>
+        </div>
+        <div class="card-footer">
+          <button class="botn btn-success">Buy Now</button>
+          <button class="botn btn-border">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <img src="img/HP Spectre x360 15.png" alt="" class="card-img">
+        <h1 class="card-title">HP Spectre x360 15</h1>
+        <div class="card-body">
+          <div class="card-star">
+            <span class="rating-value">4.5</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="card-price">$650.99</p>
+        </div>
+        <div class="card-footer">
+          <button class="botn btn-success">Buy Now</button>
+          <button class="botn btn-border">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="Heading-for-Title">
+    Explore Our Categories
+  </div>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://i.pinimg.com/236x/cd/d2/35/cdd2358122fd186ff06ccd0f598e059e.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+            <span><p class="mt-1">$16.00</p>
+            <button> buy</button></span> 
+
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://i.pinimg.com/236x/f3/a0/1c/f3a01cfdc8b9075aa067709cc72c2598.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+            <p class="mt-1">$21.15</p>
+
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://i.pinimg.com/236x/1c/6f/1f/1c6f1faed9aefbc857e6a9dcad25c9be.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+            <p class="mt-1">$12.00</p>
+
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://i.pinimg.com/236x/aa/e9/a6/aae9a6c0449485a93f09dfa462b02760.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+            <p class="mt-1">$18.40</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://i.pinimg.com/236x/67/90/a6/6790a63beca1392c2f81f735308aff2c.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+            <p class="mt-1">$16.00</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://i.pinimg.com/236x/59/b2/2e/59b22ea9796b90a9c7bc45f45ef18232.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+            <p class="mt-1">$21.15</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://i.pinimg.com/236x/79/63/f6/7963f6855b896c7986e5f5515e29e33d.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+            <p class="mt-1">$12.00</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://i.pinimg.com/236x/55/4e/e9/554ee9d48ea0966dec108bec3824f9b2.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+            <p class="mt-1">$18.40</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div>
+    <button class="Button-for-all">
+      <a href="#">VIEW ALL PRODUCT</a>
+      <div class="arrow-wrapper">
+        <div class="arrow"></div>
+      </div>
+    </button>
+  </div>
+
+
+  <div class="Heading-for-Title">
+    Shop By Collection
+  </div>
+
+  <div class="img-blog">
+
+    <div class="blogContainer-ShopByCol">
+      <a href="Shop-By-Collection-BackPages/Shop-by-Collection-men-Section.html"><img src="img/ManShoesNeeman"
+          alt=""></a>
+    </div>
+
+    <div class="blogContainer-ShopByCol">
+      <a href="https://neemans.com/"> <img src="img/WomanleeperNeeman" alt=""></a>
+    </div>
+
+
+    <div class="blogContainer-ShopByCol">
+      <a href="https://neemans.com/"> <img src="img/SummerSlipperNeeman" alt=""></a>
+    </div>
+
+    <div class="blogContainer-ShopByCol">
+      <a href="DiscoountsixtyperNeemanImg/ShopByCollTrendingShoes/TrendingShoes.html"> <img
+          src="img/TrendingShoesNeeman" alt=""></a>
+    </div>
+
+  </div>
+  <div>
+    <button class="Button-for-all">
+      <a href="#">VIEW ALL PRODUCT</a>
+      <div class="arrow-wrapper">
+        <div class="arrow"></div>
+      </div>
+    </button>
+  </div>
+
+
+
+  <div class="Heading-for-Title">
+    Our Featured Products
+  </div>
+
+
+  <div class="threeimglayout">
+    <a href="neemans.com"> <img src="img/HDneemanimg5.png" alt="" class="Featureimg" width="100%" height="auto"></a>
+  </div>
+
+
+  <div class="Heading-for-Title">
+    Customer Testimonials
+  </div>
+
+
+
+  <div class="box-area">
+    <div class="single-box">
+      <div class="img-area"></div>
+      <div class="img-text">
+        <span class="header-text"><strong>Kay Ferdenad</strong></span>
+        <div class="line"></div>
+        <h3>Designer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. copesge shskq?</p>
+      </div>
+    </div>
+    <div class="single-box">
+      <div class="img-area"></div>
+      <div class="img-text">
+        <span class="header-text"><strong>David Rayan</strong></span>
+        <div class="line"></div>
+        <h3>Devloper</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. copesge shskq?</p>
+      </div>
+    </div>
+    <div class="single-box">
+      <div class="img-area"></div>
+      <div class="img-text">
+        <span class="header-text"><strong>Handan fashli</strong></span>
+        <div class="line"></div>
+        <h3>Photographer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. copesge shskq?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- codepen bult in code end -->
+
+  <div>
+    <img src="img/ComfortResponeFashion.png" alt="" width="100%" height="auto">
+  </div>
+
+
+
+
+
+  <!-- <div class="video-container">
+    <video width="100%" height="100%" preload="">
+      <source
+        src="https://cdn.shopify.com/videos/c/vp/3d95c2163e4b4c31850fe708dc0ee2a7/3d95c2163e4b4c31850fe708dc0ee2a7.HD-1080p-2.5Mbps-28939349.mp4">
+      Your browser does not support the video tag.
+    </video>
+
+
+
+
+    <video width="100%" height="100%" autoplay>
+      <source
+        src="https://cdn.shopify.com/videos/c/vp/6d853c4694bc485a9106d77bc8088a67/6d853c4694bc485a9106d77bc8088a67.HD-1080p-2.5Mbps-28939387.mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video width="100%" height="100%" autoplay>
+      <source
+        src="https://cdn.shopify.com/videos/c/vp/3d95c2163e4b4c31850fe708dc0ee2a7/3d95c2163e4b4c31850fe708dc0ee2a7.HD-1080p-2.5Mbps-28939349.mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video width="100%" height="100%" autoplay>
+      <source
+        src="https://cdn.shopify.com/videos/c/vp/3d95c2163e4b4c31850fe708dc0ee2a7/3d95c2163e4b4c31850fe708dc0ee2a7.HD-1080p-2.5Mbps-28939349.mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  </div> -->
+  <!-- reel code end -->
+
+  <div>
+    <img src="img/FeatureTestimonials.png" alt="testimonial img" style="max-width: 100%; height: auto;">
+  </div>
+
+  <section class="storyvideo">
+    <div class="global-video-wrap-container">
+      <div class="ad-global-video-container">
+        <div class="main-video-story">
+          <div class="hvideo">
+            <video controls autoplay muted width="650px" height="250px">
+              <source src="videos/Saveplastic1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+
+
+          </div>
+
+          <div class="hcontent">
+            <dl>
+              <dt>
+                <h1>Our Story</h1>
+              </dt>
+              <dd>We crushed Something </dd>
+              <dd> it turn into a story we are proud of!</dd>
+              <dd> "Left in the ocean. Recycled into shoes."</dd>
+            </dl>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div>
+    <a href="https://neemans.com/"> <img src="img/Downimg-FashionImpact.png" alt="" width="100%" height="auto"></a>
+  </div>
+
+
+  <div class="Heading-for-Title">
+    Our Blogs
+  </div>
+
+  <div class="img-blog">
+
+    <div class="blogContainer">
+      <a href="https://neemans.com/"><img src="img/blogimg1.png" alt=""></a>
+    </div>
+
+    <div class="blogContainer">
+      <a href="https://neemans.com/"> <img src="img/blogimg2.png" alt=""></a>
+    </div>
+
+
+    <div class="blogContainer">
+      <a href="https://neemans.com/"> <img src="img/blogimg3.png" alt=""></a>
+    </div>
+
+    <div class="blogContainer">
+      <a href="https://neemans.com/"> <img src="img/blogimg4.png" alt=""></a>
+    </div>
+
+  </div>
+
+
+  <div>
+    <button class="Button-for-all">
+      <a href="#">VIEW ALL PRODUCT</a>
+      <div class="arrow-wrapper">
+        <div class="arrow"></div>
+      </div>
+    </button>
+  </div>
+
+
+  <!-- <img class="footer-image " src="img/bottleshoes.png" alt="Bottle image"> -->
+  <footer class="main-footer">
+
+    <div class="footer-container">
+      <h1>Our page has come to an end,<br>
+        but our relationship with you has not.</h1>
+      <p> STAY SUSTAINABLE AND SUBSCRIBE NOW </p>
+
+      <div class="form-box">
+        <form action="subscribe.php" method="post">
+          <input type="text" name="email" placeholder="enter your email">
+          <button type="submit"> Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-div">
+
+      <div class="footer-col">
+        <h4>SHOP FOR MEN</h4>
+
+        <ul class="listMargin" type="none">
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Sneakers</a></li>
+          <li><a href="#">Slippers</a></li>
+          <li><a href="#">Slip- Ones</a></li>
+          <li><a href="#">Sliders</a></li>
+          <li><a href="#">Sandles</a></li>
+          <li><a href="#">Athelisure</a></li>
+          <li><a href="#">Loafers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>SHOP FOR WOMEN</h4>
+        <ul class="listMargin" type="none">
+          <li><a href="#">Type</a></li>
+          <li><a href="#">New Arrivals</i></a></li>
+          <li><a href="#">Best Seller</i></a></li>
+          <li><a href="#">Purpose</a></li>
+          <li><a href="#"> Formal Shoes</i></a></li>
+          <li><a href="#">Casual Shoes</i></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>INFORMATION</h4>
+        <ul class="listMargin" type="none">
+          <li><a href="#">Track Your Order</a></li>
+          <li><a href="#">Positive Change</a></li>
+          <li><a href="#">The journey</a></li>
+          <li><a href="#">Why Neeman's</a></li>
+          <li><a href="#">Our Stories</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>GUIDES</h4>
+        <ul class="listMargin" type="none">
+          <li><a href="#">Schedule Exchange</a></li>
+          <li><a href="#">Shoe Care</a></li>
+          <li><a href="#">Returns Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+
+
+
+    <div class="footer-aside">
+      <div class="footer-contact-details">
+        <h2>CONTACT US -</h2>
+
+        <p>WhatsApp: <a href="https://wa.me/917337332584?text=Hey,%20Let%27s%20chat">+91 73373-32584</a></p>
+
+        <p>Call: <a href="https://wa.me/917337332584?text=Hey,%20Let%27s%20chat">+91 73373-32584</a></p>
+        <p> (9:30AM to 6:30PM on Weekdays)</p>
+      </div>
+
+
+      <div class="fotter-aside2">
+
+        <ul class="footer-icon">
+          <li> <a href="www.google.com"> <i class="ri-instagram-line " style="font-size: 30px;"></i></a></li>
+          <a href="">
+            <li><i class="ri-facebook-circle-line" style="font-size: 30px;">
+          </a></i></li>
+          <a href="">
+            <li><i class="ri-youtube-line" style="font-size: 30px;"></i>
+          </a></li>
+          <a href="">
+            <li><i class="ri-linkedin-box-line" style="font-size: 30px;">
+          </a></i></li>
+          <a href="">
+            <li><i class="ri-twitter-x-line" style="font-size: 27px;"></i>
+          </a></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="Script.js"> </script>
+
+
+</body>
+
+</html>
